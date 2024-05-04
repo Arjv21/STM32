@@ -1,0 +1,15 @@
+../Core/Src/ext_flash_w25q64.c:12:6:clearBuffer	2
+../Core/Src/ext_flash_w25q64.c:17:6:softDelay	2
+../Core/Src/ext_flash_w25q64.c:21:6:flashDataCopy	2
+../Core/Src/ext_flash_w25q64.c:25:6:extFlashHardReset	1
+../Core/Src/ext_flash_w25q64.c:38:6:extFlashGetDeviceId	1
+../Core/Src/ext_flash_w25q64.c:46:9:extFlashGetStatusReg1	1
+../Core/Src/ext_flash_w25q64.c:57:9:extFlashGetStatusReg2	1
+../Core/Src/ext_flash_w25q64.c:68:9:extFlashGetStatusReg3	1
+../Core/Src/ext_flash_w25q64.c:79:6:extFlashSendCommand	1
+../Core/Src/ext_flash_w25q64.c:86:6:extFlashPageRead	2
+../Core/Src/ext_flash_w25q64.c:100:6:extFlashPageWrite	3
+../Core/Src/ext_flash_w25q64.c:120:6:extFlashErase	3
+../Core/Src/ext_flash_w25q64.c:140:6:extFlashEraseFotaSector	1
+../Core/Src/ext_flash_w25q64.c:147:6:extFlashWriteHeader	1
+../Core/Src/ext_flash_w25q64.c:159:6:resetFotaFlag	1

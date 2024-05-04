@@ -135,7 +135,7 @@ int main(void)
 
 
   extFlashHardReset();
-  HAL_Delay(1);
+  HAL_Delay(10);
   extFlashSendCommand(ENABLE_RESET);
   extFlashSendCommand(RESET_DEVICE);
   extFlashSendCommand(GLOBAL_UNLOCK);
@@ -171,7 +171,7 @@ int main(void)
 		  packetReceived = 0;
 		  if(uartRxData[0] == 0x00){	// data packet
 			  if(flashWriteAddress == 0){
-				  extFlashInit();
+				  extFlashHardReset();
 				  extFlashSendCommand(ENABLE_RESET);
 				  extFlashSendCommand(RESET_DEVICE);
 				  extFlashSendCommand(GLOBAL_UNLOCK);

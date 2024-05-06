@@ -13,9 +13,7 @@ void clearBuffer(uint8_t *pBuff, uint16_t buffLen){
 	for(uint16_t i = 0;i < buffLen; i++)
 		pBuff[i] = 0x00;
 }
-
-void softDelay(uint32_t count)
-{
+void softDelay(uint32_t count){
 	for(;count>0;count--);
 }
 void flashDataCopy(uint8_t *pDest, uint8_t *pSrc, uint16_t len){
@@ -23,7 +21,6 @@ void flashDataCopy(uint8_t *pDest, uint8_t *pSrc, uint16_t len){
 		pDest[i] = pSrc[i];
 }
 void extFlashHardReset(void){
-
 	  HAL_GPIO_WritePin(F_WP_GPIO_Port, F_WP_Pin, GPIO_PIN_SET);
 	  HAL_GPIO_WritePin(F_RST_GPIO_Port, F_RST_Pin, GPIO_PIN_SET);
 	  HAL_GPIO_WritePin(F_nCS_GPIO_Port, F_nCS_Pin, GPIO_PIN_SET);
@@ -36,11 +33,13 @@ void extFlashHardReset(void){
 	  softDelay(200);
 }
 void extFlashGetDeviceId(uint8_t *pDeviceIdRxData){
-	uint8_t manufacturerId[] = {0x90,0x00,0x00,0x00};				//
+	uint8_t manufacturerId[] = {0x90,0x00,0x00,0x00};
+	HAL_SPI_Init(&hspi3);				//
 	HAL_GPIO_WritePin(F_nCS_GPIO_Port, F_nCS_Pin, GPIO_PIN_RESET);
 	HAL_SPI_Transmit(&hspi3, (uint8_t *)&manufacturerId, 4, 1);
 	HAL_SPI_Receive(&hspi3, pDeviceIdRxData, 2, 100);
 	HAL_GPIO_WritePin(F_nCS_GPIO_Port, F_nCS_Pin, GPIO_PIN_SET);
+	HAL_SPI_Init(&hspi3);
 	softDelay(500);
 }
 uint8_t extFlashGetStatusReg1(){

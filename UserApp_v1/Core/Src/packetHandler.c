@@ -17,13 +17,15 @@ uint8_t 	isFlashErased 		= 0;
 uint8_t 	isFirmwareVerified	= 0;
 uint32_t 	firmwareSize		= 0;
 
+uint8_t		msg[]				= "Erase Done...\n";
+
 void processPacketTest(uint8_t *pFrame, uint16_t pktLen){
 	/*check if Frame Start and Frame End is Properly received*/
 	if(*pFrame == 0x00)
 		savePacketToExtFlash((pFrame+1),pktLen-1);// assuing FRAME= FRAME_TYPE+DATA_BYTES(1+N DATA_BYTES)
 	else if(*pFrame == 0x01){
 		extFlashEraseFotaSector();
-		HAL_UART_Transmit(&huart2, "Erase Done...\n", 14, 10);
+		HAL_UART_Transmit(&huart2, msg, 14, 10);
 	}
 	else if(*pFrame == 0x02){
 		extFlashWriteHeader(pFrame+1);

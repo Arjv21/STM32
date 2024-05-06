@@ -60,28 +60,6 @@ static void goto_application( void );
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-//void Init_SPI(void){
-//	RCC->AHBENR = (0x0F << 20);			// ENABLE IOPORTS A,B,C,D
-//	RCC->APB1ENR |= (1 << 15);			// ENABLE SPI3 MODULE CLOCK
-//}
-//
-//void setPinMode(void){
-//	// RESET PIN MODES
-//	GPIOA->MODER &=  ~(3u << (2*15));	// CLEAR PA15
-//	GPIOB->MODER &=  ~(3u << (2*3));	// CLEAR PB3
-//	GPIOC->MODER &= ~((3u << (2*10))	// CLEAR PC10
-//					 |(3u << (2*11))	// CLEAR PC11
-//					 |(3u << (2*12)));	// CLEAR PC12
-//	GPIOD->MODER &=  ~(3u << (2*2));	// CLEAR PD2
-//
-//	// CONFIGURE PIN MODES
-//	GPIOA->MODER |=  (1u << (2*15));	// SET PA15 AS GPIO (F_RST)
-//	GPIOB->MODER |=  (1u << (2*3));		// SET PB3 AS GPIO 	(F_WP)
-//	GPIOC->MODER |= ((2u << (2*10))		// SET PC10 TO AF 	(CLK)
-//					|(2u << (2*11))		// SET PC11 TO AF 	(MOSI)
-//					|(2u << (2*12)));	// SET PC12 TO AF 	(MISO)
-//	GPIOD->MODER |=  (1u << (2*2));		// SET PD2 AS GPIO 	(F_nCS)
-//}
 unsigned char deviceIdRxData[2];
 
 void changeWordEndian(uint8_t* readWordPtr);

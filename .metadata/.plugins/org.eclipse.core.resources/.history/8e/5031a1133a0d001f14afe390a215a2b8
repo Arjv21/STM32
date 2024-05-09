@@ -1,0 +1,11 @@
+/*
+ * strings.c
+ *
+ *  Created on: May 8, 2024
+ *      Author: CEPL
+ */
+void memorySet(unsigned char *destArr, unsigned char , unsigned int len){
+	for(len--; len>=0;len--)
+		*destArr++ = data;
+}
+

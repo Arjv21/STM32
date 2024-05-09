@@ -37,15 +37,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_macro  0001eb86  00000000  00000000  00018587  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   0000fb01  00000000  00000000  0003710d  2**0
+ 17 .debug_line   0000fafd  00000000  00000000  0003710d  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000b4523  00000000  00000000  00046c0e  2**0
+ 18 .debug_str    000b4523  00000000  00000000  00046c0a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  000fb131  2**0
+ 19 .comment      00000043  00000000  00000000  000fb12d  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00002864  00000000  00000000  000fb174  2**2
+ 20 .debug_frame  00002864  00000000  00000000  000fb170  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 00000050  00000000  00000000  000fd9d8  2**0
+ 21 .debug_line_str 00000050  00000000  00000000  000fd9d4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -823,7 +823,6 @@ int main(void)
   extFlashSendCommand(GLOBAL_UNLOCK);
  80056be:	2098      	movs	r0, #152	@ 0x98
  80056c0:	f7ff fe40 	bl	8005344 <extFlashSendCommand>
-//  extFlashGetDeviceId(device_Id);
   HAL_UARTEx_ReceiveToIdle_IT(&huart2, uartRxData, 512);
  80056c4:	f44f 7200 	mov.w	r2, #512	@ 0x200
  80056c8:	4912      	ldr	r1, [pc, #72]	@ (8005714 <main+0x84>)

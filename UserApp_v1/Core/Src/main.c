@@ -57,6 +57,8 @@ uint8_t 	dummyFlagData 		= 0;
 uint8_t 	uartRxData[270]		= {0};
 uint8_t 	packetReceived 		= 0;
 uint8_t		device_Id[2]		= {0};
+
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/

@@ -1,0 +1,4 @@
+../Drivers/CMSIS/Include/core_cm4.h:1939:34:__NVIC_SystemReset	4	static,ignoring_inline_asm
+D:/GIT_WORKSPACE/STM32/Libraries/packet_handler/packetHandler.c:22:6:processPacketTest	16	static
+D:/GIT_WORKSPACE/STM32/Libraries/packet_handler/packetHandler.c:39:6:savePacketToExtFlash	24	static
+D:/GIT_WORKSPACE/STM32/Libraries/packet_handler/packetHandler.c:58:9:compareBuffer	32	static

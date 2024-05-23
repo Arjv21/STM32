@@ -26,4 +26,7 @@ SUBDIRS := \
 Core/Src \
 Core/Startup \
 Drivers/STM32F3xx_HAL_Driver/Src \
+ext_flash_w25q64 \
+int_flash \
+packet_handler \
 

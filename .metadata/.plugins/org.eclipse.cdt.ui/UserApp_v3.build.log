@@ -1,10 +1,10 @@
-16:39:03 **** Incremental Build of configuration Debug for project UserApp_v3 ****
+16:39:21 **** Incremental Build of configuration Debug for project UserApp_v3 ****
 make -j8 all 
 arm-none-eabi-size  UserApp_v3.elf 
    text	   data	    bss	    dec	    hex	filename
-  21368	    268	   2604	  24240	   5eb0	UserApp_v3.elf
+  21092	     28	   2348	  23468	   5bac	UserApp_v3.elf
 Finished building: default.size.stdout
  
 
-16:39:04 Build Finished. 0 errors, 0 warnings. (took 499ms)
+16:39:21 Build Finished. 0 errors, 0 warnings. (took 332ms)
 

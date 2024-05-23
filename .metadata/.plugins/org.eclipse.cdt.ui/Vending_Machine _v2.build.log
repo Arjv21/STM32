@@ -1,0 +1,9 @@
+11:32:44 **** Clean-only build of configuration Debug for project Vending_Machine _v2 ****
+make -j8 clean 
+rm -rf ./Startup/startup_stm32f302rbtx.d ./Startup/startup_stm32f302rbtx.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/system_stm32f3xx.cyclo ./Src/system_stm32f3xx.d ./Src/system_stm32f3xx.o ./Src/system_stm32f3xx.su
+rm -rf Vending_Machine\ _v2.elf Vending_Machine\ _v2.list Vending_Machine\ _v2.map Vending_Machine\\ _v2.elf default.size.stdout
+ 
+
+11:32:45 Build Finished. 0 errors, 0 warnings. (took 548ms)
+

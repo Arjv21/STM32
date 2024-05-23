@@ -1,0 +1,15 @@
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:12:6:clearBuffer	2
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:16:6:softDelay	2
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:19:6:flashDataCopy	2
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:23:6:extFlashHardReset	1
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:35:6:extFlashGetDeviceId	1
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:45:9:extFlashGetStatusReg1	1
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:56:9:extFlashGetStatusReg2	1
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:67:9:extFlashGetStatusReg3	1
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:78:6:extFlashSendCommand	1
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:85:6:extFlashPageRead	2
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:99:6:extFlashPageWrite	3
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:119:6:extFlashErase	3
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:139:6:extFlashEraseFotaSector	1
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:146:6:extFlashWriteHeader	1
+D:/GIT_WORKSPACE/STM32/Libraries/ext_flash_w25q64/ext_flash_w25q64.c:158:6:resetFotaFlag	1

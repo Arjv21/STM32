@@ -1,0 +1,3 @@
+../Src/Misc/led.c:87:6:LED_Set_On	16	static
+../Src/Misc/led.c:116:6:LED_Set_Off	16	static
+../Src/Misc/led.c:146:6:LED_Toggle	16	static

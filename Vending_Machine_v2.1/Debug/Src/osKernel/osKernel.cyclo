@@ -1,0 +1,9 @@
+D:/GIT_WORKSPACE/VendingMachine/Vending_Machine_v2/chip_headers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	2
+../Src/osKernel/osKernel.c:111:13:osSchedulerPeriodicRR	1
+../Src/osKernel/osKernel.c:143:13:osSchedulerLaunch	1
+../Src/osKernel/osKernel.c:197:13:osKernelStackInit	1
+../Src/osKernel/osKernel.c:252:8:osKernelAddThread	5
+../Src/osKernel/osKernel.c:310:8:osKernelLaunch	3
+../Src/osKernel/osKernel.c:362:6:osThreadYield	1
+../Src/osKernel/osKernel.c:398:6:SysTick_Handler	7
+../Src/osKernel/osKernel.c:454:28:PendSV_Handler	1

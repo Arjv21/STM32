@@ -1,0 +1,10 @@
+18:11:46 **** Incremental Build of configuration Debug for project Vending_Machine_V1 ****
+make -j8 all 
+arm-none-eabi-size  Vending_Machine_V1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1920	      0	   2104	   4024	    fb8	Vending_Machine_V1.elf
+Finished building: default.size.stdout
+ 
+
+18:11:47 Build Finished. 0 errors, 0 warnings. (took 307ms)
+

@@ -1,0 +1,1 @@
+This folder holds all the header files for handling the SIMCOM functions

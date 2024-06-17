@@ -1,0 +1,5 @@
+../Src/System/gpio.c:88:6:Gpio_Init	4	static
+../Src/System/gpio.c:171:6:Gpio_Set	16	static
+../Src/System/gpio.c:204:6:Gpio_Clear	16	static
+../Src/System/gpio.c:237:6:Gpio_Toggle	16	static
+../Src/System/gpio.c:278:9:Gpio_Read	16	static

@@ -1,0 +1,6 @@
+D:/GIT_WORKSPACE/VendingMachine/Vending_Machine_v2/chip_headers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	2
+../Src/System/spi.c:97:6:Spi_Init	3
+../Src/System/spi.c:153:6:Spi_Transmit_Data_Dma	1
+../Src/System/spi.c:201:6:Spi_Receive_Data_Dma	1
+../Src/System/spi.c:223:6:DMA2_CH2_IRQHandler	3
+../Src/System/spi.c:244:6:DMA2_CH1_IRQHandler	3

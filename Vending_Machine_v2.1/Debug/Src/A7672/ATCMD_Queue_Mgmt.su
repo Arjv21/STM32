@@ -1,0 +1,10 @@
+../Src/A7672/ATCMD_Queue_Mgmt.c:95:16:ATCMD_Queue_Full_Check	4	static
+../Src/A7672/ATCMD_Queue_Mgmt.c:137:13:ATCMD_Command_Remove	16	static
+../Src/A7672/ATCMD_Queue_Mgmt.c:180:22:ATCMD_Add_AT_Cmd	16	static
+../Src/A7672/ATCMD_Queue_Mgmt.c:235:6:ATCMD_AT_Command_Queue_Init	8	static
+../Src/A7672/ATCMD_Queue_Mgmt.c:288:22:ATCMD_Del_AT_Cmd_Head	8	static
+../Src/A7672/ATCMD_Queue_Mgmt.c:360:22:ATCMD_Add_AT_Cmd_Queue	16	static
+../Src/A7672/ATCMD_Queue_Mgmt.c:408:22:ATCMD_Del_Head	8	static
+../Src/A7672/ATCMD_Queue_Mgmt.c:457:6:ATCMD_Urc_Queue_Init	24	static
+../Src/A7672/ATCMD_Queue_Mgmt.c:503:29:ATCMD_Add_Urc	16	static
+../Src/A7672/ATCMD_Queue_Mgmt.c:548:22:ATCMD_Add_Urc_Queue	24	static

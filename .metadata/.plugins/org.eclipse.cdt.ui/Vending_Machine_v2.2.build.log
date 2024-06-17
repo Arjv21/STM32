@@ -1,0 +1,13 @@
+11:33:53 **** Clean-only build of configuration Debug for project Vending_Machine_v2.2 ****
+make -j8 clean 
+rm -rf ./Startup/startup_stm32f302rbtx.d ./Startup/startup_stm32f302rbtx.o
+rm -rf ./Src/osKernel/osKernel.cyclo ./Src/osKernel/osKernel.d ./Src/osKernel/osKernel.o ./Src/osKernel/osKernel.su
+rm -rf ./Src/System/common.cyclo ./Src/System/common.d ./Src/System/common.o ./Src/System/common.su ./Src/System/gpio.cyclo ./Src/System/gpio.d ./Src/System/gpio.o ./Src/System/gpio.su ./Src/System/sys_peri_clock.cyclo ./Src/System/sys_peri_clock.d ./Src/System/sys_peri_clock.o ./Src/System/sys_peri_clock.su ./Src/System/timer.cyclo ./Src/System/timer.d ./Src/System/timer.o ./Src/System/timer.su ./Src/System/uart.cyclo ./Src/System/uart.d ./Src/System/uart.o ./Src/System/uart.su
+rm -rf ./Src/Misc/led.cyclo ./Src/Misc/led.d ./Src/Misc/led.o ./Src/Misc/led.su
+rm -rf ./Src/A7672/ATCMD_A7672_Callbacks.cyclo ./Src/A7672/ATCMD_A7672_Callbacks.d ./Src/A7672/ATCMD_A7672_Callbacks.o ./Src/A7672/ATCMD_A7672_Callbacks.su ./Src/A7672/ATCMD_A7672_Commands.cyclo ./Src/A7672/ATCMD_A7672_Commands.d ./Src/A7672/ATCMD_A7672_Commands.o ./Src/A7672/ATCMD_A7672_Commands.su ./Src/A7672/ATCMD_Core.cyclo ./Src/A7672/ATCMD_Core.d ./Src/A7672/ATCMD_Core.o ./Src/A7672/ATCMD_Core.su ./Src/A7672/ATCMD_Queue_Mgmt.cyclo ./Src/A7672/ATCMD_Queue_Mgmt.d ./Src/A7672/ATCMD_Queue_Mgmt.o ./Src/A7672/ATCMD_Queue_Mgmt.su
+rm -rf ./Src/app.cyclo ./Src/app.d ./Src/app.o ./Src/app.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf Vending_Machine_v2.2.elf Vending_Machine_v2.2.list Vending_Machine_v2.2.map default.size.stdout
+ 
+
+11:33:54 Build Finished. 0 errors, 0 warnings. (took 610ms)
+

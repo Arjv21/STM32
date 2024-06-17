@@ -1,0 +1,8 @@
+../Src/System/common.c:96:6:Delay_Ms	24	static,ignoring_inline_asm
+../Src/System/common.c:139:6:Delay_Quantas	16	static
+../Src/System/common.c:178:10:Convert_String_To_Integer	16	static
+../Src/System/common.c:217:10:Convert_String_To_Integer32	16	static
+../Src/System/common.c:262:6:Convert_Integer_To_String	24	static
+../Src/System/common.c:324:11:Str_Cpy_Marker	40	static
+../Src/System/common.c:353:6:strConcat	16	static
+../Src/System/common.c:362:6:convert_to_epoch	120	static

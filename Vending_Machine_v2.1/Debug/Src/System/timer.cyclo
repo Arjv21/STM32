@@ -1,0 +1,4 @@
+D:/GIT_WORKSPACE/VendingMachine/Vending_Machine_v2/chip_headers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	2
+D:/GIT_WORKSPACE/VendingMachine/Vending_Machine_v2/chip_headers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	2
+../Src/System/timer.c:100:6:Timer_Init	1
+../Src/System/timer.c:146:6:TIM2_IRQHandler	6

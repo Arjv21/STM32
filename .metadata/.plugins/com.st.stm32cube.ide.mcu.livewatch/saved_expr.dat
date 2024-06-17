@@ -1,0 +1,17 @@
+Modem_State
+g_sysHealth
+g_sysState
+s_httpCredentials
+g_certificates
+g_cmdQueue
+g_rcvPtr
+g_httpResponse
+s_uartBuffer_Transmit
+s_httpCredentials
+s_mqttCredentials
+jreadPacket
+g_dispenseRequest
+mqttPacketPara
+activeTopic
+checkNwStatus
+counter

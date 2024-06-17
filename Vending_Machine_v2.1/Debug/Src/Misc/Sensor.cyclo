@@ -1,0 +1,3 @@
+../Src/Misc/Sensor.c:89:9:Vending_Machine_EnableSensor	2
+../Src/Misc/Sensor.c:122:6:Vending_Machine_DisableSensor	1
+../Src/Misc/Sensor.c:151:9:Vending_Machine_WaitForDispense	3

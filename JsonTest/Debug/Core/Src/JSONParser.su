@@ -1,0 +1,5 @@
+../Core/Src/JSONParser.c:14:22:HashCal	24	static
+../Core/Src/JSONParser.c:23:12:strcopy	32	static
+../Core/Src/JSONParser.c:59:15:JSONStructInit	32	static
+../Core/Src/JSONParser.c:97:15:JSONParseData	56	static
+../Core/Src/JSONParser.c:372:23:SearchToken	32	static

@@ -1,0 +1,2 @@
+../Src/System/adc.c:106:6:ADC1_Init	8	static
+../Src/System/adc.c:158:7:ADC1_Read_battery_value	4	static

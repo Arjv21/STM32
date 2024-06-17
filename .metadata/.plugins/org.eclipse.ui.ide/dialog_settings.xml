@@ -7,6 +7,9 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\GIT_WORKSPACE\VendingMachine\Vending_Machine_v2"/>
+			<item value="D:\GIT_WORKSPACE\VendingMachine\Vending_Machine_v1"/>
+			<item value="D:\GIT_WORKSPACE\Unisem-Electronics\Vending_Machine\Vending_Machine_V1"/>
 			<item value="D:\GIT_WORKSPACE\STM32"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
@@ -19,6 +22,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\GIT_WORKSPACE\Unisem-Electronics\Vending_Machine\Vending_Machine_V1"/>
+			<item value="D:\GIT_WORKSPACE\Vending_Machine\Vending_Machine_V1"/>
 			<item value="D:\GIT_WORKSPACE\STM32\UserApp_v2"/>
 			<item value="D:\GIT_WORKSPACE\STM32\UserApp_v1"/>
 			<item value="D:\GIT_WORKSPACE\STM32\Bootloader_v1"/>

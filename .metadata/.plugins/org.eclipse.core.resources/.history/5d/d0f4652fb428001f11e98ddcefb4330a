@@ -1,0 +1,13 @@
+/*
+ * adc_conf.h
+ *
+ *  Created on: Jun 12, 2024
+ *      Author: CEPL
+ */
+
+#ifndef ADC_CONF_H_
+#define ADC_CONF_H_
+
+
+
+#endif /* SYSTEM_ADC_CONF_H_ */
